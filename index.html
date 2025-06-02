@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sabores Romanos - Restaurante em Luanda com pratos tradicionais e ambiente acolhedor.">
+  <meta name="keywords" content="restaurante, Luanda, comida tradicional, reservas, cardápio">
+  <meta name="author" content="Sabores Romanos">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="shortcut icon" href="media.images/favicom. boy.romana_files/bd673aea-8163-49ba-8a1a-43c335c93f0a.png" type="image/x-icon">
+
+  <link rel="icon" href="images/boy.romana.png" type="image/x-icon">
+  <title>Sabores Romanos | Restaurante em Luanda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Sabores Romanos</div>
+    <nav>
+      <button class="menu-toggle" aria-label="Abrir menu de navegação" role="button">☰</button>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Bem-vindo ao Sabores Romanos</h1>
+      <p>Onde o sabor encontra a tradição.</p>
+      <a href="#cardapio" class="btn">Ver Cardápio</a>
+    </div>
+  </section>
+
+  <section class="menu" id="cardapio">
+    <h2>Nosso Cardápio</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="" alt="Foto de uma picanha grelhada suculenta" loading="lazy">
+        <h3>Picanha Grelhada</h3>
+        <p>Kz 4.500</p>
+        <button>Adicionar ao Pedido</button>
+      </div>
+      <div class="menu-item">
+        <img src="" alt="Foto de um hambúrguer artesanal com molho" loading="lazy">
+        <h3>Hambúrguer Artesanal</h3>
+        <p>Kz 2.800</p>
+        <button>Adicionar ao Pedido</button>
+      </div>
+      <div class="menu-item">
+        <img src="" alt="Foto de um copo de sumo natural refrescante" loading="lazy">
+        <h3>Sumo Natural</h3>
+        <p>Kz 900</p>
+        <button>Adicionar ao Pedido</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="reserva" id="reservas">
+    <h2>Faça sua Reserva</h2>
+    <form id="reserva-form">
+      <input type="text" placeholder="Nome" required>
+      <input type="tel" placeholder="Telefone" required>
+      <input type="date" required>
+      <input type="time" required>
+      <input type="number" placeholder="Número de pessoas" min="1" required>
+      <button type="submit">Reservar</button>
+    </form>
+  </section>
+
+  <section class="avaliacoes">
+    <h2>O que dizem nossos clientes</h2>
+    <div class="review">
+      <p>"Ambiente super agradável e comida deliciosa! 5 estrelas!"</p>
+      <p>- Carla Silva</p>
+    </div>
+    <div class="review">
+      <p>"Melhor restaurante da cidade, recomendo muito."</p>
+      <p>- João Mendes</p>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>📍 Rua dos Sabores, Luanda - Angola</p>
+    <p>📞 +244 922 000 000</p>
+    <p>📧 contato@saboresromanos.com</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+     <!-- Mapa Google -->
+    <iframe src="https://maps.google.com/maps?q=luanda&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  </section>
+
+  <!-- Botão WhatsApp -->
+  <a href="https://wa.me/244922000000" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <p>© 2025 Restaurante Sabores Romanos. Todos os direitos reservados.</p>
+    <a href="https://jeremiasjhc.github.io/Site-portifolio/">Desenvolvidor Jeremias jhc</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
